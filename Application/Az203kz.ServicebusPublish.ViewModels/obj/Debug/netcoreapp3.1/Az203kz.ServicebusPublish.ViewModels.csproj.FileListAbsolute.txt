@@ -1,0 +1,8 @@
+C:\azureRepos\Az203kz.ServicebusPublish\Az203kz.ServicebusPublish.ViewModels\bin\Debug\netcoreapp3.1\Az203kz.ServicebusPublish.ViewModels.deps.json
+C:\azureRepos\Az203kz.ServicebusPublish\Az203kz.ServicebusPublish.ViewModels\bin\Debug\netcoreapp3.1\Az203kz.ServicebusPublish.ViewModels.dll
+C:\azureRepos\Az203kz.ServicebusPublish\Az203kz.ServicebusPublish.ViewModels\bin\Debug\netcoreapp3.1\Az203kz.ServicebusPublish.ViewModels.pdb
+C:\azureRepos\Az203kz.ServicebusPublish\Az203kz.ServicebusPublish.ViewModels\obj\Debug\netcoreapp3.1\Az203kz.ServicebusPublish.ViewModels.csprojAssemblyReference.cache
+C:\azureRepos\Az203kz.ServicebusPublish\Az203kz.ServicebusPublish.ViewModels\obj\Debug\netcoreapp3.1\Az203kz.ServicebusPublish.ViewModels.AssemblyInfoInputs.cache
+C:\azureRepos\Az203kz.ServicebusPublish\Az203kz.ServicebusPublish.ViewModels\obj\Debug\netcoreapp3.1\Az203kz.ServicebusPublish.ViewModels.AssemblyInfo.cs
+C:\azureRepos\Az203kz.ServicebusPublish\Az203kz.ServicebusPublish.ViewModels\obj\Debug\netcoreapp3.1\Az203kz.ServicebusPublish.ViewModels.dll
+C:\azureRepos\Az203kz.ServicebusPublish\Az203kz.ServicebusPublish.ViewModels\obj\Debug\netcoreapp3.1\Az203kz.ServicebusPublish.ViewModels.pdb
