@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 
 namespace Az203kz.ServicebusPublish.Services
 {
@@ -14,12 +16,13 @@ namespace Az203kz.ServicebusPublish.Services
         private const string ServiceBusPrimaryConnectionString = "Endpoint=sb://kz-servicebusns.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=n9qNolgtOoiJMcObIrrUs8mcwVWHCheEAaHzVk78Ric=";
         private const string TopicName = "restaurant-orders";
         private static ITopicClient _topicClient;
+        private readonly IConfiguration _configuration;
 
-        public PublisherService()
+        protected ServiceBusConfiguration Config { get; }
+        public PublisherService(IOptions<ServiceBusConfiguration> config)
         {
-            _topicClient = new TopicClient(
-                ServiceBusPrimaryConnectionString,
-                TopicName);
+            this.Config = config.Value;
+            _topicClient = new TopicClient(Config.ConnectionString,Config.TopicName);
         }
 
         public async Task Send(RestaurantOrderViewModel viewModel)
